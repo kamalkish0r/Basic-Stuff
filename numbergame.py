@@ -42,7 +42,7 @@ while play == "yes":
             print(f"Lucky number was {number}")
             Playagain()
             break
-        if chances == 5:
+        if chances == 5 and guess > 100:
             print(f"Hint for you\nlucky lies between 1 to 100")
 
 print("Thank you for playing the Number Game!")
